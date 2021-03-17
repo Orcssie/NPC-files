@@ -1,0 +1,304 @@
+"DOTAAbilities"
+{
+	"item_custom_circlets"
+	{
+	    "BaseClass"                     "item_datadriven"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityTextureName"            "item_circlet"
+	    "ItemAliases"		    "circlet of circlet"
+	    "ItemCost"                      "550"
+	    "ItemQuality"                   "common"
+	
+	    "AbilitySpecial"
+	    {
+	        "01"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_health"          "150"
+	        }
+	    }
+	    
+	    "Modifiers"
+	    {
+	        "modifier_custom_circlets"
+	        {
+	            "Passive"           "1"
+	            "IsHidden"          "1"
+	            "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"            
+	            "Properties"
+	            {
+	                "MODIFIER_PROPERTY_HEALTH_BONUS" "%bonus_health"
+	            }
+	        }
+	    }
+	}
+
+	"item_custom_vitality_booster"
+	{
+	    "BaseClass"                     "item_datadriven"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityTextureName"            "item_vitality_booster"
+	    "ItemAliases"		    "vitality_booster"
+	    "ItemCost"                      "1100"
+	    "ItemQuality"                   "common"
+	
+	    "AbilitySpecial"
+	    {
+	        "01"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_health"          "250"
+	        }
+	    }
+	    
+	    "Modifiers"
+	    {
+	        "modifier_custom_vitality_booste"
+	        {
+	            "Passive"           "1"
+	            "IsHidden"          "1"
+	            "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"            
+	            "Properties"
+	            {
+	                "MODIFIER_PROPERTY_HEALTH_BONUS" "%bonus_health"
+	            }
+	        }
+	    }
+	}
+
+	"item_custom_reaver"
+	{
+	    "BaseClass"                     "item_datadriven"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityTextureName"            "item_reaver"
+	    "ItemAliases"		    "reaver"
+	    "ItemCost"                      "2800"
+	    "ItemQuality"                   "common"
+	
+	    "AbilitySpecial"
+	    {
+	        "01"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_strength"          "25"
+	        }
+	    }
+	    
+	    "Modifiers"
+	    {
+	        "modifier_custom_reaver"
+	        {
+	            "Passive"           "1"
+	            "IsHidden"          "1"
+	            "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"            
+	            "Properties"
+	            {
+	                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%bonus_strength"
+	            }
+	        }
+	    }
+	}
+
+	"item_custom_heart_1"
+	{
+	    "BaseClass"                     "item_datadriven"
+	    "ID" 			    "1102"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityTextureName"            "item_heart"
+	    "ItemAliases"		    "reaver"
+	    "ItemCost"                      "5100"
+	    "ItemQuality"                   "common"
+	    "MaxUpgradeLevel"		    "2" 
+	    "ItemBaseLevel" 		    "1"
+	
+	    "AbilitySpecial"
+	    {
+	        "01"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_strength"          "25"
+	        }
+	    }
+	    
+	    "Modifiers"
+	    {
+	        "modifier_custom_heart_1"
+	        {
+	            "Passive"           "1"
+	            "IsHidden"          "1"
+	            "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"            
+	            "Properties"
+	            {
+	                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%bonus_strength"
+	            }
+	        }
+	    }
+	}
+
+	"item_custom_heart_2"
+	{
+	    "BaseClass"                     "item_datadriven"
+	    "ID" 			    "1101"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityTextureName"            "item_heart"
+	    "ItemAliases"		    "reaver"
+	    "ItemCost"                      "5100"
+	    "ItemQuality"                   "common"
+	    "MaxUpgradeLevel"		    "2" 
+	    "ItemBaseLevel" 		    "2"
+	
+	    "AbilitySpecial"
+	    {
+	        "01"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_strength"          "45"
+	        }
+	    }
+	    
+	    "Modifiers"
+	    {
+	        "modifier_custom_heart_2"
+	        {
+	            "Passive"           "1"
+	            "IsHidden"          "1"
+	            "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"            
+	            "Properties"
+	            {
+	                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%bonus_strength"
+	            }
+	        }
+	    }
+	}
+
+	"item_recipe_custom_heart_1" 
+	{
+	    "ID" "1200"
+	    "BaseClass"           "item_datadriven"
+	    "AbilityTextureName"            "item_heart"
+	    "ItemRecipe"          "1" //destroyed after combine
+	    "ItemCost"            "1200" //if its 0, it will combine without needing a recipe.
+	    "ItemResult"          "item_custom_heart_1" //the result of combining the ItemRequirements
+	    "ItemRequirements"
+	    {
+	        "01" "item_custom_vitality_booster;item_custom_reaver"
+	    }
+	}
+
+	"item_recipe_custom_heart_2" 
+	{
+	    "ID" "1201"
+	    "BaseClass"           "item_datadriven"
+	    "AbilityTextureName"            "item_heart"
+	    "ItemRecipe"          "1" //destroyed after combine
+	    "ItemCost"            "0" //if its 0, it will combine without needing a recipe.
+	    "ItemResult"          "item_custom_heart_2" //the result of combining the ItemRequirements
+	    "ItemRequirements"
+	    {
+	        "01" "item_custom_heart_1;item_custom_heart_1"
+	    }
+	}
+	"item_custom_glimmer_cape"
+	{
+	    "BaseClass"                     "item_lua"
+	    "ID" 			    "1105"
+	    "ScriptFile"		    "item_custom_glimmer_cape"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityTextureName"            "item_glimmer_cape"
+	    "ItemAliases"		    "glimmer"
+	    "ItemCost"                      "1800"
+	    "ItemQuality"                   "common"
+
+	    "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT"
+	    "AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+	    "AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	    "FightRecapLevel"				"1"
+	    "SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+	   // Stats
+	   //-------------------------------------------------------------------------------------------------------------
+	    "AbilityCastRange"				"1050"
+	    "AbilityCooldown"				"14.0"
+	    "AbilityManaCost"				"90"
+	     "AbilitySpecial"
+	    {
+	        "01"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_str"          "6"
+	        }
+	        "02"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_agi"          "6"
+	        }
+		"03"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "duration"          "6"
+	        }
+		"04"
+	        {
+	            "var_type"              "FIELD_FLOAT"
+	            "invi_duration"          "1.5"
+	        }
+		"05"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "phase_duration"          "2"
+	        }
+	    }
+	    
+	    "Modifiers"
+	    {
+	        "modifier_custom_glimmer_cape"
+	        {
+	            "Passive"           "1"
+	            "IsHidden"          "1"
+	            "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"            
+	            "Properties"
+	            {
+	                "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS" "%bonus_str"
+			"MODIFIER_PROPERTY_STATS_AGILITY_BONUS" "%bonus_agi"
+	            }
+	        }
+	    }
+
+	}
+
+	"item_custom_kermit"
+	{
+	    "BaseClass"                     "item_lua"
+	    "ID" 			    "1106"
+	    "ScriptFile"		    "item_custom_kermit"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityTextureName"            "kermit"
+	    "ItemAliases"		    "kermit"
+	    "ItemCost"                      "0"
+	    "ItemQuality"                   "common"
+	    "ItemSellable"					"0"
+	    "ItemIsNeutralDrop"			"1"
+
+	    "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE| DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT"
+	    "AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+	    "AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	    "FightRecapLevel"				"1"
+	    "SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+	   // Stats
+	   //-------------------------------------------------------------------------------------------------------------
+	    "AbilityCastRange"				"1050"
+	    "AbilityCooldown"				"300.0"
+	    "AbilityManaCost"				"200"
+	     "AbilitySpecial"
+	    {
+	        "01"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_str"          "6"
+	        }
+	    }
+
+	}
+
+}

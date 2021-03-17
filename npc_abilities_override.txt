@@ -1,0 +1,863 @@
+"DOTAAbilities"
+{	
+	"item_custom_circlets"	"REMOVE"
+	"item_custom_vitality_booster"	"REMOVE"
+	"item_custom_reaver"	"REMOVE"
+	"item_custom_heart_1"	"REMOVE"
+	"item_custom_heart_2"	"REMOVE"
+	"item_recipe_custom_heart_1"	"REMOVE"
+	"item_recipe_custom_heart_2"	"REMOVE"
+	"item_gungir"	"REMOVE"
+	"item_recipe_gungir"		"REMOVE"
+	"item_dragon_lance"	"REMOVE"
+	"item_recipe_dragon_lance"		"REMOVE"
+	"item_aghanims_shard"			"REMOVE"
+	"item_recipe_helm_of_the_dominator_2"			"REMOVE"
+	"item_helm_of_the_dominator_2"			"REMOVE"
+	"item_eternal_shroud"	"REMOVE"
+	"item_recipe_eternal_shroud"		"REMOVE"
+	"item_crimson_guard"	"REMOVE"
+	"item_recipe_crimson_guard"		"REMOVE"
+	"item_lotus_orb"	"REMOVE"
+	"item_recipe_lotus_orb"		"REMOVE"
+	"item_echo_sabre"	"REMOVE"
+	"item_recipe_echo_sabre"	"REMOVE"
+	"item_blight_stone"	"REMOVE"
+	"item_recipe_blight_stone"	"REMOVE"
+	"item_moon_shard"	"REMOVE"
+	"item_recipe_moon_shard"	"REMOVE"
+	//"item_orb_of_corrrosion"	"REMOVE"
+	//"item_recipe_orb_of_corrrosion"	"REMOVE"
+	"item_ultimate_scepter_2"			"REMOVE"
+	"item_spirit_vessel"	"REMOVE"
+	"item_recipe_spirit_vessel"	"REMOVE"
+	"item_silver_edge"	"REMOVE"
+	"item_recipe_silver_edge"	"REMOVE"
+	"item_silver_edge"	"REMOVE"
+	"item_recipe_silver_edge"	"REMOVE"
+	"item_glimmer_cape"	"REMOVE"
+	"item_recipe_glimmer_cape"	"REMOVE"
+	"item_mage_slayer"	"REMOVE"
+	"item_recipe_mage_slayer"	"REMOVE"
+	"item_guardian_greaves"	"REMOVE"
+	"item_recipe_guardian_greaves"	"REMOVE"
+	"item_wind_waker"	"REMOVE"
+	"item_recipe_wind_waker"	"REMOVE"
+	"item_arcane_blink"	"REMOVE"
+	"item_recipe_arcane_blink"	"REMOVE"
+	"item_swift_blink"	"REMOVE"
+	"item_recipe_swift_blink"	"REMOVE"
+	"item_overwhelming_blink"	"REMOVE"
+	"item_recipe_overwhelming_blink"	"REMOVE"
+	"item_recipe_hurricane_pike"	"REMOVE"
+	"item_hurricane_pike"		"REMOVE"
+	"item_bloodthorn"		"REMOVE"
+	"item_recipe_bloodthorn"		"REMOVE"
+	"item_witch_blade"		"REMOVE"
+	"item_recipe_witch_blade"		"REMOVE"
+	"item_recipe_nullifier"		"REMOVE"
+	"item_nullifier"		"REMOVE"
+	"item_blink"			"REMOVE"
+	//"item_blades_of_attack"			"REMOVE"
+	//"item_broadsword"			"REMOVE"
+	//"item_chainmail"			"REMOVE"
+	//"item_claymore"			"REMOVE"
+	//"item_helm_of_iron_will"			"REMOVE"
+	//"item_javelin"			"REMOVE"
+	//"item_mithril_hammer"			"REMOVE"
+	//"item_platemail"			"REMOVE"
+	//"item_quarterstaff"			"REMOVE"
+	"item_quelling_blade"			"REMOVE"
+	//"item_ring_of_protection"			"REMOVE"
+	"item_stout_shield"			"REMOVE"
+	"item_gauntlets"			"REMOVE"
+	"item_slippers"			"REMOVE"
+	"item_mantle"			"REMOVE"
+	"item_branches"			"REMOVE"
+	//"item_belt_of_strength"			"REMOVE"
+	//"item_boots_of_elves"			"REMOVE"
+	//"item_robe"			"REMOVE"
+	"item_circlet"			"REMOVE"
+	//"item_ogre_axe"			"REMOVE"
+	//"item_blade_of_alacrity"			"REMOVE"
+	//"item_staff_of_wizardry"			"REMOVE"
+	//"item_ultimate_orb"			"REMOVE"
+	//"item_gloves"			"REMOVE"
+	"item_lifesteal"			"REMOVE"
+	//"item_ring_of_regen"			"REMOVE"
+	//"item_sobi_mask"			"REMOVE"
+	"item_boots"			"REMOVE"
+	//"item_gem"			"REMOVE"
+	//"item_cloak"			"REMOVE"
+	"item_talisman_of_evasion"			"REMOVE"
+	"item_cheese"			"REMOVE"
+	//"item_magic_stick"			"REMOVE"
+	//"item_recipe_magic_wand"			"REMOVE"
+	//"item_magic_wand"			"REMOVE"
+	"item_ghost"			"REMOVE"
+	//"item_clarity"			"REMOVE"
+	"item_flask"			"REMOVE"
+	"item_dust"			"REMOVE"
+	"item_bottle"			"REMOVE"
+	//"item_ward_observer"			"REMOVE"
+	//"item_ward_sentry"			"REMOVE"
+	"item_tango"			"REMOVE"
+	"item_tango_single"			"REMOVE"
+	//"item_courier"			"REMOVE"
+	"item_tpscroll"			"REMOVE"
+	"item_recipe_travel_boots"			"REMOVE"
+	"item_travel_boots"			"REMOVE"
+	"item_recipe_phase_boots"			"REMOVE"
+	"item_phase_boots"		"REMOVE"
+	//"item_demon_edge"			"REMOVE"
+	//"item_eagle"			"REMOVE"
+	//"item_reaver"			"REMOVE"
+	//"item_relic"			"REMOVE"
+	"item_hyperstone"			"REMOVE"
+	//"item_ring_of_health"			"REMOVE"
+	//"item_void_stone"			"REMOVE"
+	//"item_mystic_staff"			"REMOVE"
+	//"item_energy_booster"			"REMOVE"
+	//"item_point_booster"			"REMOVE"
+	//"item_vitality_booster"			"REMOVE"
+	"item_recipe_power_treads"			"REMOVE"
+	"item_power_treads"			"REMOVE"
+	"item_recipe_hand_of_midas"			"REMOVE"
+	"item_hand_of_midas"			"REMOVE"
+	//"item_recipe_oblivion_staff"			"REMOVE"
+	//"item_oblivion_staff"			"REMOVE"
+	//"item_recipe_pers"			"REMOVE"
+	//"item_pers"			"REMOVE"
+	"item_recipe_poor_mans_shield"			"REMOVE"
+	"item_poor_mans_shield"			"REMOVE"
+	"item_recipe_bracer"			"REMOVE"
+	"item_bracer"			"REMOVE"
+	"item_recipe_wraith_band"			"REMOVE"
+	"item_wraith_band"			"REMOVE"
+	"item_recipe_null_talisman"			"REMOVE"
+	"item_null_talisman"			"REMOVE"
+	"item_recipe_mekansm"			"REMOVE"
+	"item_mekansm"			"REMOVE"
+	"item_recipe_vladmir"			"REMOVE"
+	"item_vladmir"			"REMOVE"
+	"item_flying_courier"			"REMOVE"
+	"item_recipe_buckler"			"REMOVE"
+	"item_buckler"			"REMOVE"
+	//"item_recipe_ring_of_basilius"			"REMOVE"
+	//"item_ring_of_basilius"			"REMOVE"
+	//"item_recipe_pipe"			"REMOVE"
+	//"item_pipe"			"REMOVE"
+	"item_recipe_urn_of_shadows"			"REMOVE"
+	"item_urn_of_shadows"			"REMOVE"
+	"item_recipe_headdress"			"REMOVE"
+	"item_headdress"			"REMOVE"
+	//"item_recipe_sheepstick"			"REMOVE"
+	//"item_sheepstick"			"REMOVE"
+	//"item_recipe_orchid"			"REMOVE"
+	//"item_orchid"			"REMOVE"
+	"item_recipe_cyclone"			"REMOVE"
+	"item_cyclone"			"REMOVE"
+	"item_recipe_force_staff"			"REMOVE"
+	"item_force_staff"			"REMOVE"
+	"item_recipe_dagon"			"REMOVE"
+	"item_recipe_dagon_2"			"REMOVE"
+	"item_recipe_dagon_3"			"REMOVE"
+	"item_recipe_dagon_4"			"REMOVE"
+	"item_recipe_dagon_5"			"REMOVE"
+	"item_dagon"			"REMOVE"
+	"item_dagon_2"			"REMOVE"
+	"item_dagon_3"			"REMOVE"
+	"item_dagon_4"			"REMOVE"
+	"item_dagon_5"			"REMOVE"
+	"item_recipe_necronomicon"			"REMOVE"
+	"item_recipe_necronomicon_2"			"REMOVE"
+	"item_recipe_necronomicon_3"			"REMOVE"
+	"item_necronomicon"			"REMOVE"
+	"item_necronomicon_2"			"REMOVE"
+	"item_necronomicon_3"			"REMOVE"
+	"item_recipe_ultimate_scepter"			"REMOVE"
+	"item_ultimate_scepter"			"REMOVE"
+	//"item_recipe_refresher"			"REMOVE"
+	//"item_refresher"			"REMOVE"
+	"item_recipe_assault"			"REMOVE"
+	"item_assault"			"REMOVE"
+	"item_recipe_heart"			"REMOVE"
+	"item_heart"			"REMOVE"
+	"item_recipe_black_king_bar"			"REMOVE"
+	"item_black_king_bar"			"REMOVE"
+	"item_aegis"			"REMOVE"
+	//"item_recipe_shivas_guard"			"REMOVE"
+	//"item_shivas_guard"			"REMOVE"
+	//"item_recipe_bloodstone"			"REMOVE"
+	//"item_bloodstone"			"REMOVE"
+	"item_recipe_sphere"			"REMOVE"
+	"item_sphere"			"REMOVE"
+	//"item_recipe_reflex_energy_regen_booster"			"REMOVE"
+	"item_vanguard"			"REMOVE"
+	"item_recipe_blade_mail"			"REMOVE"
+	"item_blade_mail"			"REMOVE"
+	//"item_recipe_soul_booster"			"REMOVE"
+	//"item_soul_booster"			"REMOVE"
+	"item_recipe_hood_of_defiance"			"REMOVE"
+	"item_hood_of_defiance"			"REMOVE"
+	//"item_recipe_rapier"			"REMOVE"
+	//"item_rapier"			"REMOVE"
+	"item_recipe_monkey_king_bar"			"REMOVE"
+	"item_monkey_king_bar"			"REMOVE"
+	"item_recipe_radiance"			"REMOVE"
+	"item_radiance"			"REMOVE"
+	//"item_recipe_butterfly"			"REMOVE"
+	//"item_butterfly"			"REMOVE"
+	"item_recipe_greater_crit"			"REMOVE"
+	"item_greater_crit"			"REMOVE"
+	"item_recipe_basher"			"REMOVE"
+	"item_basher"			"REMOVE"
+	"item_recipe_bfury"			"REMOVE"
+	"item_bfury"			"REMOVE"
+	"item_recipe_manta"			"REMOVE"
+	"item_manta"			"REMOVE"
+	"item_recipe_lesser_crit"			"REMOVE"
+	"item_lesser_crit"			"REMOVE"
+	"item_recipe_armlet"			"REMOVE"
+	"item_armlet"			"REMOVE"
+	"item_recipe_invis_sword"			"REMOVE"
+	"item_invis_sword"			"REMOVE"
+	"item_recipe_sange_and_yasha"			"REMOVE"
+	//"item_sange_and_yasha"			"REMOVE"
+	"item_recipe_satanic"			"REMOVE"
+	"item_satanic"			"REMOVE"
+	"item_recipe_mjollnir"			"REMOVE"
+	"item_mjollnir"			"REMOVE"
+	"item_recipe_skadi"			"REMOVE"
+	"item_skadi"			"REMOVE"
+	"item_recipe_sange"			"REMOVE"
+	//"item_sange"			"REMOVE"
+	"item_recipe_helm_of_the_dominator"			"REMOVE"
+	"item_helm_of_the_dominator"			"REMOVE"
+	"item_recipe_maelstrom"			"REMOVE"
+	"item_maelstrom"			"REMOVE"
+	"item_recipe_desolator"			"REMOVE"
+	"item_desolator"			"REMOVE"
+	//"item_recipe_yasha"			"REMOVE"
+	//"item_yasha"			"REMOVE"
+	"item_recipe_mask_of_madness"			"REMOVE"
+	"item_mask_of_madness"			"REMOVE"
+	"item_recipe_diffusal_blade"			"REMOVE"
+	"item_recipe_diffusal_blade_2"			"REMOVE"
+	"item_diffusal_blade"			"REMOVE"
+	"item_diffusal_blade_2"			"REMOVE"
+	"item_recipe_ethereal_blade"			"REMOVE"
+	"item_ethereal_blade"			"REMOVE"
+	//"item_recipe_soul_ring"			"REMOVE"
+	//"item_soul_ring"			"REMOVE"
+	"item_recipe_arcane_boots"			"REMOVE"
+	"item_arcane_boots"			"REMOVE"
+	"item_orb_of_venom"			"REMOVE"
+	"item_recipe_ancient_janggo"			"REMOVE"
+	"item_ancient_janggo"			"REMOVE"
+	//"item_recipe_medallion_of_courage"			"REMOVE"
+	//"item_medallion_of_courage"			"REMOVE"
+	"item_smoke_of_deceit"			"REMOVE"
+	//"item_recipe_veil_of_discord"			"REMOVE"
+	//"item_veil_of_discord"			"REMOVE"
+	"item_recipe_rod_of_atos"			"REMOVE"
+	"item_rod_of_atos"			"REMOVE"
+	"item_recipe_abyssal_blade"			"REMOVE"
+	"item_abyssal_blade"			"REMOVE"
+	"item_recipe_heavens_halberd"			"REMOVE"
+	"item_heavens_halberd"			"REMOVE"
+	"item_recipe_tranquil_boots"			"REMOVE"
+	"item_tranquil_boots"			"REMOVE"
+	"item_shadow_amulet"			"REMOVE"
+
+	//=================================================================================================================
+	// Ability: Jakiro's Dual Breath
+	//=================================================================================================================
+	"jakiro_dual_breath"
+	{
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"start_radius"			"225"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"end_radius"			"275"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"750 750 750 750"
+				"LinkedSpecialBonus"	"special_bonus_unique_jakiro_5"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"speed"					"1050"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"fire_delay"			"0.3 0.3 0.3 0.3"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"burn_damage"			"20 40 60 80"
+				"LinkedSpecialBonus"	"special_bonus_unique_jakiro_2"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"slow_movement_speed_pct"	"0 0 0 0"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"slow_attack_speed_pct"		"0 0 0 0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"speed_fire"			"1050"
+			}
+		}		
+	}
+
+	//=================================================================================================================
+	// Ability: Jakiro's Macropyre
+	//=================================================================================================================
+	"jakiro_macropyre"
+	{
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"30 20 8"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"120 230 340"		
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage"					"100 140 180"
+				"LinkedSpecialBonus"	"special_bonus_unique_jakiro_7"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"cast_range"				"1400"					
+			}
+			
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"path_radius"				"260"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"duration"					"10"
+			}	
+			"05"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"burn_interval"				"0.5 0.5 0.5"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage_scepter"			"125 175 225"
+				"RequiresScepter"		"1"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"linger_duration"			"2"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"scepter_bonus_range"			"400"
+				"RequiresScepter"		"1"
+			}
+			"09"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"scepter_bonus_duration"			"20"
+				"RequiresScepter"		"1"
+			}
+			
+		}	
+	}
+	//=================================================================================================================
+	// Ability: Juggernaut Blade Fury
+	//=================================================================================================================
+	"juggernaut_blade_fury"
+	{
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0 0 0 0"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"42 34 26 18"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"120 110 100 90"		
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"blade_fury_damage_tick"	"0.2"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blade_fury_radius"			"500"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blade_fury_damage"			"85 110 135 160"
+				"LinkedSpecialBonus"		"special_bonus_unique_juggernaut_3"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"5.0"
+				"LinkedSpecialBonus"		"special_bonus_unique_juggernaut"
+			}
+		}
+	}
+	//=================================================================================================================
+	// Ability: Snapfire Firesnap Cookie
+	//=================================================================================================================
+	"snapfire_firesnap_cookie"
+	{
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700"
+		"AbilityCastPoint"				"0.2"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+
+		// Time
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"24 21 18 15"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"110"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_speed"		"1000"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"pre_hop_duration"		"0.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"jump_duration"			"0.484" //"0.431 0.484 0.538 0.592" // proportional to horizontal distance
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"jump_height"			"257" //"228 257 285 314" // proportional to horizontal distance
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"jump_horizontal_distance"	"0" //"400 450 500 550"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"pre_land_anim_time"	"0.14"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"landing_gesture_duration"	"0.6"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"impact_radius"			"300"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"impact_damage"			"70 140 210 280"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"impact_stun_duration"	"1.6 1.8 2.0 2.2"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"self_cast_delay"		"0.3"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Ability: Snapfire Mortimer Kisses
+	//=================================================================================================================
+	"snapfire_mortimer_kisses"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"6482"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"AbilitySound"					"Hero_Snapfire.MortimerBlob.Launch"
+
+		// Gobble up scepter ability not tied to any spell in regular game, for AD, associating it here.
+		"AbilityDraftUltScepterAbility" "snapfire_gobble_up"
+		"AbilityDraftUltScepterPreAbility" "snapfire_spit_creep"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"3000"
+		"AbilityCastPoint"				"0.5"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"25"
+		"AbilityDuration"				"6.0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"100 125 150"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_count"		"8"
+				"LinkedSpecialBonus"	"special_bonus_unique_snapfire_1"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_speed"		"1300"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_width"		"130"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"impact_radius"			"350"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_per_impact"		"160 240 320"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_tooltip"		"6.0"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_vision"		"500"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"turn_rate"				"75"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"burn_interval"			"0.5"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"burn_damage"			"50 75 100"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"move_slow_pct"			"15 20 25"
+				"LinkedSpecialBonus"	"special_bonus_unique_snapfire_4"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"burn_ground_duration"	"3.0"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"dist_change_speed"		"75"
+			}
+			"14"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"min_range"				"600"
+			}
+			"15"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"min_lob_travel_time"	"0.8"
+			}
+			"16"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_lob_travel_time"	"2.0"
+			}
+			"17"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"delay_after_last_projectile"	"0.5"
+			}
+			"18"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"burn_linger_duration"	"1.0"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Pangolier: Shield Crash
+	//=================================================================================================================
+	"pangolier_shield_crash"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"6461"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+        "HasScepterUpgrade"			"1"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.0 0.0 0.0 0.0"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"18 16 14 12"
+		
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"80 90 100 110"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"90 160 230 300"
+				"LinkedSpecialBonus"	"special_bonus_unique_pangolier_2"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hero_stacks"			"9 12 15 18"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"10.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"500"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"jump_duration"			"0.4"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"jump_duration_gyroshell"	"0.75"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"jump_height"			"250"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"jump_height_gyroshell"	"350"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"jump_horizontal_distance"	"0"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"rolling_thunder_cooldown"	"2.5"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+	}
+	//=================================================================================================================
+	// Pangolier: Gyroshell
+	//=================================================================================================================
+	"pangolier_gyroshell"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"6343"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"FightRecapLevel"				"1"
+
+		"AbilityDraftUltShardAbility"		"pangolier_rollup"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"1.2"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"70"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"100 150 200"
+
+		// Damage.
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"200 275 350"
+
+        "precache"
+		{
+			"model" "models/heroes/pangolier/pangolier_gyroshell.vmdl"
+			"model" "models/heroes/pangolier/pangolier_gyroshell2.vmdl"
+		}
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cast_time_tooltip"		"1.2"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"tick_interval"			"0.05"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"forward_move_speed"	"0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT" // used after any break in the roll (start/jump/bounce)
+				"turn_rate_boosted"		"165"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"turn_rate"				"120"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"400"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hit_radius"			"150"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bounce_duration"		"0.4"
+			}			
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"stun_duration"			"1.0 1.25 1.5"
+			}			
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"knockback_radius"		"150"
+			}			
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"8.0"
+				"LinkedSpecialBonus"	"special_bonus_unique_pangolier_6"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"jump_recover_time"		"0.25"
+			}			
+		}
+	}
+}

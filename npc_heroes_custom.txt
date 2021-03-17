@@ -1,0 +1,96 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	//=================================================================================================================
+	// HERO: Templar Assassin
+	//=================================================================================================================
+	"npc_dota_hero_templar_assassin_template"
+	{
+		"override_hero"				"npc_dota_hero_templar_assassin"			// Hero to override
+		"Ability1"					"templar_assassin_refraction_holdout"		// Ability 1
+		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+		//"MovementSpeed"				"140"		// Speed.			
+	}
+
+	"npc_dota_hero_axe_template"
+	{
+		"override_hero"				"npc_dota_hero_axe"			// Hero to override
+		"Ability1"					"templar_assassin_refraction_holdout"		// Ability 1
+		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+		"MovementSpeed"				"100"		// Speed.			
+	}
+
+	//=================================================================================================================
+	// HERO: juggernaut
+	//=================================================================================================================
+	"npc_dota_hero_juggernaut_template"
+	{
+		"override_hero"				"npc_dota_hero_juggernaut"			// Hero to override
+		//"Ability1"					"juggernaut_blade_fury_lua"		// Ability 1
+		"Ability3"					"jugger_q"		// Ability 3
+		"Ability6"					"juggernaut_slash_of_omni"// Ability 3	
+		"Ability11"					"special_bonus_attack_damage_10"
+		"Ability13"					"special_bonus_mp_275"		
+		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
+		//"MovementSpeed"				"140"		// Speed.			
+	}
+
+	//=================================================================================================================
+	// HERO: Jakiro
+	//=================================================================================================================
+	"npc_dota_hero_jakiro_template"
+	{
+		"override_hero"				"npc_dota_hero_jakiro"			// Hero to override
+		"Ability3"					"jakiro_e"		// Ability 3
+		"Ability10"					"special_bonus_mp_regen_150"
+		"Ability14"					"special_bonus_intelligence_16"		
+		// Vision
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"		"200"
+		"VisionNighttimeRange"		"200"
+		//"MovementSpeed"				"140"		// Speed.			
+	}
+
+	//=================================================================================================================
+	// HERO: Snapfire
+	//=================================================================================================================
+	"npc_dota_hero_snapfire_template"
+	{
+		"override_hero"				"npc_dota_hero_snapfire"			// Hero to override
+		"Ability3"					"snapfire_e"		// Ability 3	
+		"Ability11"					"special_bonus_mp_regen_150"
+		"Ability14"					"special_bonus_mp_500"
+		"Ability15"					"special_bonus_cooldown_reduction_20"
+		"Ability16"					"special_bonus_attack_damage_80"	
+
+		// Vision
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"		"1800"
+		"VisionNighttimeRange"		"800"
+
+		//"MovementSpeed"				"140"		// Speed.			
+	}
+
+	//=================================================================================================================
+	// HERO: Pangolier
+	//=================================================================================================================
+	"npc_dota_hero_pangolier_template"
+	{
+		"override_hero"				"npc_dota_hero_pangolier"			// Hero to override
+		"Ability3"					"pangolier_bounce_of_luck"		// Ability 3	
+		//"Ability11"					"special_bonus_mp_regen_150"
+		//"Ability14"					"special_bonus_mp_500"
+		//"Ability15"					"special_bonus_cooldown_reduction_20"
+		//"Ability16"					"special_bonus_attack_damage_80"	
+
+		// Vision
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"		"1800"
+		"VisionNighttimeRange"		"800"
+
+		//"MovementSpeed"				"140"		// Speed.			
+	}
+
+}
