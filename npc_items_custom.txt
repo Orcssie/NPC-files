@@ -1,5 +1,37 @@
 "DOTAAbilities"
-{
+{	
+	"item_custom_circletsssss"
+	{
+	    "BaseClass"                     "item_datadriven"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityTextureName"            "item_circlet"
+	    "ItemAliases"		    "circlet of circlet"
+	    "ItemCost"                      "550"
+	    "ItemQuality"                   "common"
+	
+	    "AbilitySpecial"
+	    {
+	        "01"
+	        {
+	            "var_type"              "FIELD_INTEGER"
+	            "bonus_health"          "150"
+	        }
+	    }
+	    
+	    "Modifiers"
+	    {
+	        "modifier_custom_circlets"
+	        {
+	            "Passive"           "1"
+	            "IsHidden"          "1"
+	            "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"            
+	            "Properties"
+	            {
+	                "MODIFIER_PROPERTY_HEALTH_BONUS" "%bonus_health"
+	            }
+	        }
+	    }
+	}
 	"item_custom_circlets"
 	{
 	    "BaseClass"                     "item_datadriven"
