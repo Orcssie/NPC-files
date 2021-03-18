@@ -1,6 +1,7 @@
 "DOTAAbilities"
 {	
 	//"item_placeholder" "REMOVE"
+	//"item_placeholder2" "REMOVE"
 	"item_custom_circlets"	"REMOVE"
 	"item_custom_vitality_booster"	"REMOVE"
 	"item_custom_reaver"	"REMOVE"
